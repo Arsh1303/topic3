@@ -1,13 +1,21 @@
 body {
-    background-color: lightblue;
+    background-color: rgba(0, 250, 254, 0.372);
     }
     
     h1 {
-    color: white;
+    color: rgb(226, 155, 155);
     text-align: center;
+    text-decoration: underline;
     }
-    
+    h2 {
+        color: rgb(181, 128, 60);
+    }
+    h3 {
+        color: darkcyan;
+    }
     p {
     font-family: verdana;
     font-size: 20px;
     }
+
+   

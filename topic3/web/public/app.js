@@ -1,4 +1,4 @@
-$('#navbar').load('navbar.html');
+$('#navbar').load('navbar.html'); 
 const devices = JSON.parse(localStorage.getItem('devices')) || [];
 
 devices.forEach(function(device) {

@@ -16,7 +16,7 @@ app.get('/register-device', (req, res) => {
 app.get('/iot-applications', (req, res) => {
     res.sendFile(`${base}/iot-applications.html`);
   }); 
-
+ 
 app.get('*', (req, res) => {
     res.sendFile(`${base}/404.html`);
   });
